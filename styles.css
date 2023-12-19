@@ -6,8 +6,8 @@
 
 .root {
   margin: 0 auto;
-  width: 400px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -15,6 +15,13 @@
 
 .grid {
   border: 1px solid black;
-  width: 25px;
-  height: 25px;
+  width: 10px;
+  height: 10px;
+  flex: 1 1 1;
+}
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
 }

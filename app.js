@@ -30,7 +30,7 @@ function generateGrid(gridValue, height, width) {
   //   select all grids in order to mouseover change
   const grids = document.querySelectorAll(".grid");
   grids.forEach((grid) =>
-    grid.addEventListener("mouseleave", function (e) {
+    grid.addEventListener("mouseover", function (e) {
       console.log(e.target);
       e.target.style.backgroundColor = "blue";
     })
